@@ -15,7 +15,7 @@ this project has 3 files, one file (**simpleNeuron.py**) showcases a the impleme
 
 **training the neural network:** 
 
-once we build a neural network, we have to make sure the weight is minimized. that is done by first calculating the loss of the network, i.e., the difference between the true value and the value predicted by the neural network. and this is done with the mean squared error.
+once we build a neural network, we have to make sure the loss is minimized; i.e., the neural network has to produce results that are as close to the expected value as possible. That is achieved by first calculating the loss of the network, i.e., the difference between the true value and the value predicted by the neural network. and this is done with the mean squared error.
 
 after that, we use some more mathematics to determine how we can minimize the loss by changing the value of one of the inputs (either the inputs of the hidden layer neuron, or, the input of the output layer, i.e., the outputs of the hidden layer neurons.)
 
