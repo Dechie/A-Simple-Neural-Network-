@@ -16,7 +16,7 @@ class Neuron:  # single neuron
         return sigmoid(total)
 
 
-class OurNeuralNetwork: # network of neurons with layers
+class NeuralNetwork: # network of neurons with layers
     '''
     A neural network with:
         - 2 inputs
@@ -54,42 +54,7 @@ class OurNeuralNetwork: # network of neurons with layers
 
         return out_o1
 
-network = OurNeuralNetwork()
+network = NeuralNetwork()
 x = np.array([2, 3])
 print(network.feedforward(x)) # answer should be ~ 0.7216
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+   
