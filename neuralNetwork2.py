@@ -45,7 +45,7 @@ time_index = []
 losses = []
 
 # neural network class
-class OurNeuralNetwork: 
+class NeuralNetwork: 
     '''
     A neural network with:
         - 2 inputs
@@ -187,7 +187,7 @@ all_y_trues = np.array([  # 1 represents female, 0 represents male
 
 # finally, train the network
 
-network = OurNeuralNetwork() 
+network = NeuralNetwork() 
 network.train(data, all_y_trues)
 
 # convert the recorded values to np arrays
@@ -201,26 +201,3 @@ plt.ylabel('loss')
 
 plt.title('training neural network')
 plt.show()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
