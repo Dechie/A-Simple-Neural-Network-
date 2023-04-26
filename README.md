@@ -21,7 +21,7 @@ after that, we use some more mathematics to determine how we can minimize the lo
 
 we apply partial derivatives to determine this, and once we have plugged the numbers, we can insert random values as the weights to the neuron inputs, and check if the predicted outputs are closer or farther from the true values.
 
-the third file, "neuralNetwork2.py", contains the neuron implementation, a neuralNetwork with weights and inputs varying (unlike in the second file), as well as the MSE calculation and the derivative calculation functions.
+the third file, **neuralNetwork2.py**, contains the neuron implementation, a neuralNetwork with weights and inputs varying (unlike in the second file), as well as the MSE calculation and the derivative calculation functions.
 
 and finally, the last file contains a graph, which can help visualize the final output of the system.
 
