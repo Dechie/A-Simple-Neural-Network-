@@ -19,7 +19,7 @@ once we build a neural network, we have to make sure the loss is minimized; i.e.
 
 after that, we use some more mathematics to determine how we can minimize the loss by changing the value of one of the inputs (either the inputs of the hidden layer neuron, or, the input of the output layer, i.e., the outputs of the hidden layer neurons.)
 
-we apply partial derivatives to determine this, and once we have plugged the numbers, we can insert random values as the weights to the neuron inputs, and check if the predicted outputs are closer or farther from the true values.
+we apply partial derivatives and the concept of back-propagation to determine this, and once we have plugged the numbers, we can insert random values as the weights to the neuron inputs, and check if the predicted outputs are closer or farther from the true values.
 
 the third file, **neuralNetwork2.py**, contains the neuron implementation, a neuralNetwork with weights and inputs varying (unlike in the second file), as well as the MSE calculation and the derivative calculation functions.
 
