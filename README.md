@@ -27,4 +27,5 @@ and finally, the last file contains a graph, which can help visualize the final 
 
 ![image](https://user-images.githubusercontent.com/104849949/234575719-b67f666a-163b-437a-ac6e-3cf5b6a11b54.png)
 
-this is what the final graph looks like.
+this is what the final graph looks like...
+
